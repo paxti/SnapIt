@@ -12,7 +12,7 @@ public class OneSocketScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        rb.velocity = new Vector2(5 * -1, rb.velocity.y);
+        rb.velocity = new Vector2(4 * -1, rb.velocity.y);
     }
 
     // Update is called once per frame
